@@ -37,8 +37,8 @@ public class OnlyCopperMod extends Mod{
         Log.info("Loading some example content.");
         OCAttribute.load();
         
-        OCBlocks.load();
         OCUnitTypes.load();
+        OCBlocks.load();
         OCTechTree.load();
     }
 

@@ -37,7 +37,7 @@ public class OCUnitTypes {
     public static UnitType copperMono;
 
     public static void load(){
-        mono = new UnitType("copper-mono"){{
+        copperMono = new UnitType("copper-mono"){{
             controller = u -> new MinerAI();
 
             constructor = UnitEntityLegacyMono::create;
