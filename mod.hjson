@@ -4,6 +4,6 @@ author: "Azmeur"
 main: "onlycopper.OnlyCopperMod"
 description: "There's only copper?! No problem."
 
-version: 0.002b
+version: 0.1
 minGameVersion: 145
 java: true

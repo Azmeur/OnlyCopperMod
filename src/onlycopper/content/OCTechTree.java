@@ -20,6 +20,7 @@ public class OCTechTree {
         addToNode(Blocks.mechanicalDrill, () -> node(OCBlocks.copperChipDrill, () -> node(OCBlocks.copperShatterDrill)));
         addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.copperHail));
         addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.deepWaterExtractor));
+        addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.copperSolarPanel));
         addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.cryofluidFreezingPress));
         addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.denseCopperWall, () -> node(OCBlocks.denseCopperWallLarge)));
         addToNode(OCBlocks.copperChipDrill, () -> node(OCBlocks.copperAirFactory, () -> node(OCUnitTypes.copperMono)));
